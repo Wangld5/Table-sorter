@@ -1,0 +1,50 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+h1, h2{
+    font-weight: bold;
+    font-size: 17px;
+}
+.container{
+    width: 350px;
+    margin: auto;
+}
+#todo{
+  width: 430px;
+}
+#staff{
+    width: 400px;
+}
+table, tr, th, td{
+    padding: 2px;
+    border: 1px solid rgb(196, 196, 196);
+    border-collapse: collapse;
+}
+th{
+    text-align: left;
+    color: white;
+    background-color: blue;
+}
+.alternate{
+    background-color: rgb(245, 245, 245);
+}
+.ascend{
+    background: url("ascend.png"), center, no-repeat;
+    background-size: contain;
+}
+.descend{
+    background: url("descend.png"), center, no-repeat;
+    background-size: contain;
+}
+.active{
+    background-color: rgb(165, 172, 252);
+}
+.caret{
+    width: 15px;
+    height: 15px;
+    float: right;
+    border: none;
+    display: inline-block;
+}
